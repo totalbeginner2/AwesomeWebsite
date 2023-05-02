@@ -1,4 +1,8 @@
-body {
+* {
+     box-sizing: border-box;
+ }
+    
+    body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
@@ -39,6 +43,7 @@ body {
     flex: auto;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .container .hero {
@@ -49,6 +54,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 18px;
+    margin-bottom: 30px;
 }
 
 .hero .contain1 {
@@ -109,7 +115,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
 
 .infobox {
@@ -130,11 +136,58 @@ h2 {
 }
 
 .quote {
-    height: 300px;
+    display: flex;
+    height: 400px;
     width: 100%;
-    background-color: #E5E7EB
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
 }
 
+.quote p {
+    max-width: 800px;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote .thor {
+    display: flex;
+    font-size: 28px;
+    font-weight: 700;
+    color: #1f2937;
+    justify-content: right;
+}
+
+.littlead {
+    margin: 80px;
+    border-radius: 10px;
+    display: flex;
+    background-color: #3882F6;
+    padding: 10px;
+    height: 130px;
+    width: 850px;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 120%;
+}
+.adsubtext {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.littlead button {
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    height: 40px ;
+    width: 130px;
+    background-color: #3882F6;
+}
 
 .footer {
     display: flex;
