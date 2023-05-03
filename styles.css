@@ -16,7 +16,7 @@
     display: flex;
     width: 100%;
     height: 70px;
-    background-color: #1F2937;
+    background-color: #011936;
     justify-content: space-around;
     align-items: center;
 }
@@ -36,7 +36,7 @@
 .header a {
     text-decoration: none;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #F9FAF8;
 }
 
 .container {
@@ -50,7 +50,7 @@
     display: flex;
     height: 450px;
     width: 100%;
-    background-color: #1F2937;
+    background-color: #011936;
     justify-content: center;
     align-items: center;
     gap: 18px;
@@ -76,7 +76,7 @@
 
 .contain1 .subtext {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #F9FAF8;
 }
 
 .contain1 button{
@@ -84,8 +84,8 @@
     width: 125px;
     font-size: 18px;
     font-weight: bold;
-    color: white;
-    background-color:  #3882F6;
+    color: #F9FAF8;
+    background-color:  #ED254E;
     padding: 8px;
     border: 0px;
     border-radius: 15px;
@@ -95,19 +95,19 @@
     display: flex;
     height: 250px;
     width: 500px;
-    background-color: rgba(177, 171, 171, 0.589);
+    background-color: #ED254E;
     font-size: 18px;
-    color: #ffffff;
+    color: #F9FAF8;
     justify-content: center;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 
 h2 {
     font-size: 36px;
     font-weight: 700;
-    color: #1f2937;
+    color: #011936;
     text-align: center;
 }
 
@@ -121,7 +121,7 @@ h2 {
 .infobox {
     height: 150px;
     width: 150px;
-    border: 4px solid #3882F6;
+    border: 4px solid #ED254E;
     border-radius: 20px;
 }
 
@@ -131,20 +131,22 @@ h2 {
 
 .info .text {
     text-align: center;
-    color: #1f2937;
+    color: #011936;
     font-size: 16px;
+    font-weight: 525;
 }
 
 .quote {
     display: flex;
     height: 400px;
     width: 100%;
-    background-color: #E5E7EB;
+    background-color: #F9B4C1;
     justify-content: center;
     align-items: center;
 }
 
 .quote p {
+    color: #011936;
     max-width: 800px;
     font-size: 36px;
     font-weight: lighter;
@@ -154,17 +156,18 @@ h2 {
     display: flex;
     font-size: 28px;
     font-weight: 700;
-    color: #1f2937;
+    color: #011936;
     justify-content: right;
 }
 
 .littlead {
-    margin: 80px;
+    margin-top: 80px;
+    margin-bottom: 30px;
     border-radius: 10px;
     display: flex;
     background-color: #3882F6;
     padding: 10px;
-    height: 130px;
+    height: 120px;
     width: 850px;
     justify-content: space-around;
     align-items: center;
@@ -180,10 +183,11 @@ h2 {
 .littlead button {
     color: white;
     border-style: solid;
+    border-color: white;
     border-width: 2px;
     border-radius: 10px;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 600;
     height: 40px ;
     width: 130px;
     background-color: #3882F6;
@@ -193,7 +197,7 @@ h2 {
     display: flex;
     width: 100%;
     height: 70px;
-    background-color: #1F2937;
+    background-color: #011936;
     justify-content: space-around;
     align-items: center;
 }
